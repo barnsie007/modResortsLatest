@@ -1,0 +1,12 @@
+com\acme\modres\db\ModResortsCustomerInformation.class
+com\acme\modres\mbean\DMBeanUtils.class
+com\acme\modres\exception\ExceptionHandler.class
+com\acme\modres\mbean\OpMetadata.class
+com\acme\modres\Constants.class
+com\acme\modres\mbean\OpMetadataList.class
+com\acme\modres\AvailabilityCheckerServlet.class
+com\acme\modres\LogoutServlet.class
+com\acme\modres\DefaultWeatherData.class
+com\acme\modres\mbean\AppInfo.class
+com\acme\modres\mbean\IOUtils.class
+com\acme\modres\WeatherServlet.class

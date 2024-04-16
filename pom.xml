@@ -22,12 +22,6 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>com.ibm.websphere</groupId>
-      <artifactId>runtime</artifactId>
-      <version>1.0</version>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
       <groupId>com.google.code.gson</groupId>
       <artifactId>gson</artifactId>
       <version>2.10.1</version>
@@ -52,6 +46,12 @@
     </dependency>
   </dependencies>
   <build>
+    <resources>
+      <resource>
+        <targetPath>${project.build.directory}/liberty/wlp/usr/shared/config/lib/global</targetPath>
+        <directory>${project.basedir}/src/main/liberty/lib</directory>
+      </resource>
+    </resources>
     <plugins>
       <plugin>
         <artifactId>maven-war-plugin</artifactId>
